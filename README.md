@@ -33,9 +33,9 @@ Use the following command to set up a simple React application.
      .docker images  -show the all images   
      .docker ps -a :If you want to see all the containers, including the non-running ones.    
      .docker ps or docker container ps :it only shows the running ones.
-    . docker rm <container_id>--To remove the container
-     .docker start <container_id>.To restart the container,
-     .docker stop <container_id>  for :-docker stop 28909da87f5a 
+    . docker rm <container_id>-To remove the container.
+     .docker start <container_id>.To restart the container.
+     .docker stop <container_id>  for :-docker stop 28909da87f5a .
    .  docker rmi <image_id>: To delete a specific image.
     . docker rmi -f <image_id>: To delete a docker image forcefully
      .-{docker rmi -f $(docker images -q)}
