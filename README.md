@@ -1,4 +1,4 @@
-
+{
 How to Create a Simple React Application
 Use the following command to set up a simple React application.
 
@@ -29,9 +29,9 @@ Use the following command to set up a simple React application.
                  .run that image container     
 
 9.some more command
-     .docker images  -show the all images   
-     .docker ps -a :If you want to see all the containers, including the non-running ones.    
-     .docker ps or docker container ps :it only shows the running ones.
+    { .docker images  -show the all images   }
+     {.docker ps -a :If you want to see all the containers, including the non-running ones. }   
+     {.docker ps or docker container ps :it only shows the running ones.
      docker rm <container_id>--To remove the container
      .docker start <container_id>.To restart the container,
      .docker stop <container_id>  for :-docker stop 28909da87f5a 
@@ -40,4 +40,6 @@ Use the following command to set up a simple React application.
      -{docker rmi -f $(docker images -q)}
      docker rm -f $(docker ps -aq): To delete all the docker container available in your machine
 
+}
 
+}
