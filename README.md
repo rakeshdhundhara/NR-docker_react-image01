@@ -5,12 +5,14 @@ Use the following command to set up a simple React application.
  test -the app with command npm start
 
 2.Write a Dockerfile
+
 3.Build the Image
         command for built the docker images -docker build -t dhundhara/docker_image01:latest . 
         -t option specifies the name and tag for the image.
         The . at the end represents the current directory.
         dhundhara-is user name of docker
         docker_image01 -is images name
+        
 4.Now, run docker images and Create a Container from the Image  
                    :> docker run -it -p 3000:3000 dhundhara/docker_react02:latest  
 5.Push the Image to Docker Hub
